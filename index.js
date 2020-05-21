@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 // replace the value below with the Telegram token you receive from @BotFather
 let IaId = '';
-// Create a bot that uses 'polling' to fetch new updates
+// Create a bot sdfthat uses 'polling' to fetch new updates
 console.log('argsdd',process.argv[2]);
 
 const token = '1131189638:AAE9WKvFgxLvNlKHINzo25E7uJ_L_HOSdyg';
