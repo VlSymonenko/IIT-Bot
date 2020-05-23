@@ -31,4 +31,4 @@ IaId = chatId;
   bot.sendMessage(chatId, '1');
 });
 const envs = {};
-// setInterval( ()=> IaId !== '' && bot.sendMessage(IaId, '1'),5000);
+// setInterval( ()=> IaId !== '' && bot.sensdMessage(IaId, '1'),5000);
