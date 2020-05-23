@@ -11,7 +11,7 @@ const bot = new TelegramBot(token, {polling: true});
 // Matches "/echo [whatever]"
 bot.onText(/\/echo (.+)/, (msg, match) => {
   // 'msg' is the recefsived Message from Telegram
-  // 'match' is the result of executing the regexp above on the text content
+  // 'match' is the result of executing the resdfgexp above on the text content
   // of the message
 
   const chatId = msg.chat.id;
